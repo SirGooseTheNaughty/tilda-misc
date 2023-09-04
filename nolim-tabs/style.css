@@ -1,0 +1,31 @@
+#rec633468549 [data-animate-sbs-event='blockintoview'] .tn-atom__sbs-anim-wrapper,
+#rec633468549 [data-animate-sbs-event='intoview'] .tn-atom__sbs-anim-wrapper {
+    animation-duration: 999999999999s !important;
+}
+#rec633468549 .t396__elem.t-animate {
+    transition-duration: 999999999999s !important;
+}
+.nolimAutoScaleFix {
+    opacity: 0 !important;
+    height: 0 !important;
+    max-height: 0 !important;
+    min-height: 0 !important;
+    pointer-events: none !important;
+    overflow: hidden !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    position: absolute;
+    bottom: -100000px;
+}
+.block-switch-tab {
+    transition: transform 0.4s ease;
+}
+.block-switch-tab a {
+    transition: background-color 0.4s ease;
+}
+.active-tab {
+    transform: scale(1.1);
+}
+.active-tab a {
+    background-color: #e1e1f3;
+}
