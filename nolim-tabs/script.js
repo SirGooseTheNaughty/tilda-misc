@@ -391,7 +391,9 @@
             ) {
                 e.preventDefault();
                 e.stopPropagation();
-                const num = target.getAttribute('href').split(`${somebuttons}=`)[1]
+                console.log(target.getAttribute('href'));
+                const num = target.getAttribute('href').split(`${somebuttons}=`)[1];
+                console.log(num);
                 blocksID = num - 1;
                 showAnotherTab();
                 break;
