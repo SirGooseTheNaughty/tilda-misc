@@ -1,0 +1,26 @@
+<style>
+    
+.t-store__card__textwrapper {
+    padding-top: 20px; /* отступ между фото и описанием */
+}
+.t-store__card__descr {
+    margin-top: 8px; /* отступ между названием и цветом */
+}
+.t-store__card__price-wrapper {
+    margin-top: 12px; /* отступ между описанием и ценой */
+}
+
+/* для любого другого экрана можно скопировать весь этот блок и поменять значение ширины с 1200 на нужную (например, 480 для последней мобилки) */
+@media screen and (max-width: 1200px) {
+    .t-store__card__textwrapper {
+        padding-top: 20px;
+    }
+    .t-store__card__descr {
+        margin-top: 8px;
+    }
+    .t-store__card__price-wrapper {
+        margin-top: 12px;
+    }
+}
+
+</style>
