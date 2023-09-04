@@ -387,12 +387,13 @@
                 somebuttons != '' &&
                 somebuttons != '#' &&
                 target.getAttribute('href') &&
-                target.getAttribute('href').includes(`${somebuttons}=`)
+                target.getAttribute('href').includes(somebuttons)
             ) {
                 e.preventDefault();
                 e.stopPropagation();
-                console.log(target.getAttribute('href'));
-                const num = target.getAttribute('href').split(`${somebuttons}=`)[1];
+                const href = target.getAttribute('href');
+                console.log(href);
+                const num = href.split(href.includes('=') ? `${somebuttons}=` : somebuttons)[1];
                 console.log(num);
                 blocksID = num - 1;
                 showAnotherTab();
